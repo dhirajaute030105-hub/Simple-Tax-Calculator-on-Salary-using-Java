@@ -8,7 +8,7 @@ class TaxCalculator
         double FA=0;
         Scanner s1=new Scanner(System.in);
 
-        System.out.print("Enter your monthly Salary::");
+        System.out.print("Enter your Annual Salary::");
         double salary=s1.nextDouble();
         System.out.println("-------- Final Data --------");
         System.out.println(" ");
@@ -124,6 +124,10 @@ class TaxCalculator
             }
             
 
+        }
+        else
+        {
+            System.out.println(".....Thank You.....");
         }
         
     }
